@@ -1,0 +1,26 @@
+.app {
+    display: grid;
+    grid-template-areas:
+        "cabecalho"
+        "corpo"
+        "rodape";
+
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+    gap: 4px;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background: red;
+}
+
+.corpo {
+    grid-area: corpo;
+    background: blueviolet;
+}
+
+.rodape {
+    grid-area: rodape;
+    background: greenyellow;
+}

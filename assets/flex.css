@@ -1,0 +1,20 @@
+.corpo {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.bloco1 {
+    flex-grow: 4;
+    border: 1px solid black;
+}
+
+.bloco2 {
+    flex-grow: 4;
+    border: 1px solid black;
+}
+
+.bloco3 {
+    flex-grow: 4;
+    border: 1px solid black;
+}
